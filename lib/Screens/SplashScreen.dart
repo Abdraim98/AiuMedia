@@ -38,7 +38,7 @@ class _SplashScreenState extends State<SplashScreen> {
     return Container(
       height: context.height(),
       width: context.width(),
-      child: Image.asset(Splash_Img,height: context.height(),width: context.width(),fit: BoxFit.cover,),
+      child: Image.asset(Splash_Img,height: context.height(),width: context.width(),fit: BoxFit.fill,),
     );
   }
 }
